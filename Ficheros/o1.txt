@@ -1,0 +1,96 @@
+
+%%%%%%%%%%%%%%%%%%% TRABAJO OBLIGATORIO 1 IRIN %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% GRUPO 1:
+
+%%% JAVIER LÓPEZ INIESTA DÍAZ DEL CAMPO
+%%% JORQUE QUIJORNA SANTOS
+%%% JORGE ROMEO TERCIADO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% EXTRA %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+NUMBER OF ROBOTS								= 1
+ROBOT 1: X POSITION (meters)		= -1.25
+ROBOT 1: Y POSITION (meters)		= 0.05
+ROBOT 1: ORIENTATION (radians) 		= 0.0
+WRITE TO FILE (0 No, 1 YES )		= 1
+RUN TIME				= 10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% ENVIRONMENT %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+NUMBER OF LIGHT OBJECTS  			= 1
+LIGHT 1: X POSITION												= 1.17
+LIGHT 1: Y POSITION												= 0.0
+
+NUMBER OF BLUE LIGHT OBJECTS 			= 5
+BLUE LIGHT 1: X POSITION										= 0.45
+BLUE LIGHT 1: Y POSITION										= 1.03
+BLUE LIGHT 2: X POSITION										= 1.12
+BLUE LIGHT 2: Y POSITION										= 0.93
+BLUE LIGHT 3: X POSITION										= 0.39
+BLUE LIGHT 3: Y POSITION										= 0.46
+BLUE LIGHT 4: X POSITION										= 0.75
+BLUE LIGHT 4: Y POSITION										= -1
+BLUE LIGHT 5: X POSITION										= 0.45
+BLUE LIGHT 5: Y POSITION										= -0.55
+
+
+NUMBER OF RED LIGHT OBJECTS 			= 2
+RED LIGHT 1: X POSITION										= 1.2
+RED LIGHT 1: Y POSITION										= 0.6
+RED LIGHT 2: X POSITION										= 1.2
+RED LIGHT 2: Y POSITION										= -0.6
+
+NUMBER OF GROUND AREA 										= 6
+GROUND AREA 1 X POSITION									= 1.4
+GROUND AREA 1 Y POSITION									= 0.0
+GROUND AREA 1 RADIUS										= 0.4
+GROUND AREA 1 COLOR (0.0 Black, 0.5 Grey)							= 0.5
+
+GROUND AREA 2 X POSITION									= 0.5
+GROUND AREA 2 Y POSITION									= 1.1
+GROUND AREA 2 RADIUS										= 0.1
+GROUND AREA 2 COLOR (0.0 Black, 0.5 Grey)							= 0.0
+
+GROUND AREA 3 X POSITION									= 1.2
+GROUND AREA 3 Y POSITION									= 1
+GROUND AREA 3 RADIUS										= 0.1
+GROUND AREA 3 COLOR (0.0 Black, 0.5 Grey)							= 0.0
+
+GROUND AREA 4 X POSITION									= 0.4
+GROUND AREA 4 Y POSITION									= 0.5
+GROUND AREA 4 RADIUS										= 0.1
+GROUND AREA 4 COLOR (0.0 Black, 0.5 Grey)							= 0.0
+
+GROUND AREA 5 X POSITION									= 0.5
+GROUND AREA 5 Y POSITION									= -0.6
+GROUND AREA 5 RADIUS										= 0.1
+GROUND AREA 5 COLOR (0.0 Black, 0.5 Grey)							= 0.0
+
+GROUND AREA 6 X POSITION									= 0.8
+GROUND AREA 6 Y POSITION									= -1.1
+GROUND AREA 6 RADIUS										= 0.1
+GROUND AREA 6 COLOR (0.0 Black, 0.5 Grey)							= 0.0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% SENSORS %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+LIGHT SENSOR RANGE (meters)				= 4.5
+BLUE LIGHT SENSOR RANGE (meters)			= 4.5
+RED LIGHT SENSOR RANGE (meters)				= 1.5
+BATTERY SENSOR RANGE (meters)							= 0.2
+BATTERY CHARGE COEF 								= 0.5
+BATTERY DISCHARGE COEF								= 0.0014
+BLUE BATTERY SENSOR RANGE (meters)					= 1
+BLUE BATTERY CHARGE COEF 						= 0.000001
+BLUE BATTERY DISCHARGE COEF						= 0.01
+RED BATTERY SENSOR RANGE (meters)						= 1
+RED BATTERY CHARGE COEF 							= 0.000001
+RED BATTERY DISCHARGE COEF							= 0.01
+ODOMETRY ERROR                      		  = 0.0
